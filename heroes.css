@@ -203,3 +203,35 @@ footer a {
   text-decoration: none;
   color: #eee;
 }
+.counter {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 1.5%;
+  font-size: 50px;
+  background-color: #f4f4f4;
+  color: #1B3040;
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  vertical-align: middle;
+}
+
+.countercontainer {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content:center;
+}
+
+.textcounter{
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 1.5%;
+  vertical-align: middle;
+  width: 200px;
+  font-size: 20px;
+}
